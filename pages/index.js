@@ -3,7 +3,6 @@ import React, { useState } from "react";
 export default function Home() {
   const [text, setText] = useState("");
   const [list, setList] = useState([]);
-  var i = 0;
 
   const onChange = (e) => {
     setText(e.target.value);
